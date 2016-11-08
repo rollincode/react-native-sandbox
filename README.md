@@ -5,22 +5,30 @@ Default sandbox hybrid app with examples: icons, hybrid side navigation, routing
 
 ### Installation
 
-1. Clone project
-2. Edit __package.json__ and replace change application name
+Clone project and run
+
+```sh
+npm install
+```
+
+Edit __package.json__ and replace change application name
 
 ```json
 "name": "App"
 ```
 
-3. Edit ___index.android.js___ and ___index.ios.js___ and replace with your application name
+Edit ___index.android.js___ and ___index.ios.js___ and replace with your application name
+
 ```javascript
 AppRegistry.registerComponent('App' ...)
 ```
-4. Run
+Run
+
 ```sh
 react-native upgrade
 ```
-5. Enjoy !
+
+Enjoy !
 
 Router is in `src/App.js` with:
 
